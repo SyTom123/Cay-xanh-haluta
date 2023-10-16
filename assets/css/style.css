@@ -62,6 +62,7 @@
     display: flex;
     align-items: center;
     height: 70px;
+    margin-right: -20px;
 }
 .header .header-menu li a{
     text-decoration: none;
@@ -69,7 +70,7 @@
     font-family: var(--font-2);
     color: #fff;
     margin:0 13px;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     line-height: 1.2;
     text-transform: uppercase;
     display: inline-block;
@@ -79,10 +80,13 @@
     
 }
 .header .inner-cart {
-    display: inline-block;
+    text-align: right;
+    padding-right: 16px;
+  
 }
 .header .inner-cart .inner-cart-logo {
     position: relative;
+    display: inline-block;
 }
 
 .header .inner-cart .inner-cart-logo img {
@@ -140,7 +144,7 @@
 
 /* End banner */
 /* section 2 */
-.section-2 .mt-38 {
+.section-2.mt-38 {
     margin-top: 38px;
 }
 .my-col {
@@ -743,5 +747,305 @@
     border: 1px solid #f2f2f2;
     border-radius: 6px;
 }   
+.section-18 .inner-right {
+    margin-left: 48px;
+}
+.section-18 .inner-right .inner-price {
+    margin-top: 8px;
+}
+.section-18 .inner-right .inner-price-new {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3rem;
+    color:var(--green-one-color);
+    display: inline-block;
+}
+.section-18 .inner-right .inner-price-old {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-decoration: line-through;
+    color:var(--text-lightblack-seven);
+    display: inline-block;
+    margin-left: 30px;
+}
+.section-18 .inner-right .inner-quantity {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.section-18 .inner-right .inner-quantity .inner-text {
+    font-weight: 500;
+    line-height: 2.7rem;
+    font-size: 1.8rem;
+    color: var(--green-four-color);
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+.section-18 .inner-right .inner-quantity .inner-change {
+    display: inline-flex;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #DBDBDB;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.section-18 .inner-right .inner-quantity .inner-change a {
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: none;
+    color:var(--text-lightblack-seven);
+}
+.section-18 .inner-right .inner-quantity input {
+    display: inline-flex;
+    text-align: center;
+    width: 50px;
+    height: 32px;
+    font-size: 1.5rem;
+    color:#0363CD;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #DBDBDB;
+    margin: 0 10px;
+}
+.section-18 .inner-right .inner-content {
+    border: 1px solid #DBDBDB;
+    padding: 10px 12px;
+    margin-top: 12px;
+    border-radius: 5px;
+    width: 410px;
+    height: 230px;
+}
+.section-18 .inner-right .inner-content h2 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color:var(--text-lightblack-two);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.section-18 .inner-right .inner-content ul li {
+    color: #4F4F4F;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.section-18 .inner-right .inner-content ul li::marker {
+    font-size: 2rem;
+    color: #c4c4c4;
+}
+.section-18 .inner-right .inner-content a{
+    color: var(--green-four-color);
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+.section-18 .inner-right .button {
+    background-color: var(--green-two-color);
+    width: 410px;
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 12px 0;
+}
+.section-18 .inner-right .button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+.section-18 .inner-right .button span {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #fff;
+}
+.section-18 .inner-right .button-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 410px;
+    margin-top: 16px;
+}
+.section-18 .inner-right .button-bottom a {
+    width: 200px;
+    height: 48px;
+    display: inline-block;
+    background-color: var(--green-one-color);
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid var(--green-one-color); 
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.section-18 .inner-right .button-bottom span {
+    font-size: 1.6rem;
+}
+.section-18 .inner-right .button-bottom .button-add-cart{
+    background-color: #fff;
+    color: var(--green-two-color);
+    font-size: 1.6rem;
 
+}
 /* End section 18 */
+/* section 19 */
+.section-19 {
+    margin-top: 58px;
+}
+.section-19 .inner-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.section-19 .inner-title a {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    text-decoration: none;
+    color: var(--green-one-color);
+}
+.section-19 .inner-title h2 {
+    font-weight: 500;   
+    font-size: 2.4rem;
+
+}
+.section-19 .inner-product .row {
+    padding: 0 15px;
+}
+.section-19 .inner-product .my-col {
+    padding: 0;
+    margin-top: 14px;
+}
+.section-19 .inner-hr {
+    margin-top: 44px;
+}
+/* End section 19 */
+/* section 20 */
+.section-20 {
+    margin-top: 40px;
+}
+.section-20 .inner-content {
+    border-top: 1px solid #DBDBDB;
+    padding: 40px 0;
+}
+.section-20 .inner-left .inner-title {
+    font-weight: 500;
+    font-size: 2.4rem;
+    color: var(--text-lightblack-five);
+    margin-bottom: 18px;
+
+}
+.section-20 .inner-desc p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+.section-20 .inner-desc .inner-text-upper {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 22px;
+}
+.section-20 .inner-desc img {
+   width: 100%;
+   margin-bottom: 16px;
+}
+.section-20 .button {
+    text-align: center;
+    margin-top: 20px;
+}
+.section-20 .inner-right .inner-title {
+    font-weight: 500;
+    font-size: 2.4rem;
+    color: var(--text-lightblack-five);
+    margin-bottom: 18px;
+}
+.section-20 .inner-right .inner-top img {
+    width: 100%;
+    aspect-ratio: 384/187;
+    object-fit: cover;
+}
+.section-20 .inner-right .inner-top .inner-link {
+    font-weight: 700;
+    display: inline-block;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-decoration: none;
+    color: var(--text-lightblack-five);
+    margin-top: 15px;
+    cursor: pointer;
+}
+.section-20 .inner-right .inner-top .inner-info{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--text-lightblack-seven);
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+.section-20 .inner-right .inner-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 34px;
+}
+.section-20 .inner-right .inner-item .inner-image img {
+    width: 74px;
+    aspect-ratio: 74/62;
+}
+.section-20 .inner-right .inner-item .inner-wrap {
+    margin-left: 12px;
+}
+.section-20 .inner-right .inner-item .inner-subtilte a {
+    text-decoration: none;
+    color: var(--text-lightblack-five);
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+.section-20 .inner-right .inner-item .inner-date {
+    font-size: 1.1rem;
+    color: var(--text-lightblack-seven);
+    margin-top: 2px;
+}
+.section-20 .inner-right .inner-tags {
+    margin-top: -26px;
+}
+.section-20 .inner-right .inner-tags h2 {
+    margin: 0;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    font-weight: 500;
+    color: var(--text-lightblack-six);
+    margin-bottom: 0px;
+  
+}
+.section-20 .inner-right .inner-tags .inner-tag {
+    background-color: #e8e8e8;
+    height: 28px;
+    width: 124px;
+    border-radius: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--text-lightblack-one);
+    padding-left: 10px;
+    margin: 12px 10px 0 0;
+    padding-top: 0.2px;
+}
+
+/* End section 20 */
