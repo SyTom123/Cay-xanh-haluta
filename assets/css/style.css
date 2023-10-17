@@ -1049,3 +1049,100 @@
 }
 
 /* End section 20 */
+/* section 21 */
+.section-21 {
+    margin-top: 70px;
+}
+.section-21 .inner-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-21 .inner-top h2 {
+    font-size: 2.4rem;
+    color: var(--text-lightblack-five);
+    margin: 0;
+}
+.section-21 .inner-top .inner-button {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 500;
+    background-color: var(--green-one-color);
+    width: 164px;
+    text-align: center;
+    padding: 4px 0;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0px 2px 10px #96E3B7;
+}
+.section-21 .inner-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 12px 0px 6px;
+    border: 1px solid #DBDBDB;
+    margin-top: 16px;
+}
+.section-21 .inner-box .inner-left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(100% / 3);
+    border-right: 1px solid #DBDBDB;
+    margin-bottom: 12px;
+}
+.section-21 .inner-box .inner-left .inner-text{
+    font-weight: 500;
+    font-size: 3.4rem;
+    line-height: 4.1rem;
+    color: #F2994A;
+}
+.section-21 .inner-box .inner-left .inner-star img{
+    width: 16px;
+}
+.section-21 .inner-box .inner-left .inner-quantity {
+    text-decoration: none;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    color: #007DFF;
+    margin-top: 8px;
+    display: inline-block;
+}
+.section-21 .inner-box .inner-right {
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+} 
+.section-21 .inner-box .inner-right .inner-subwrap {
+    display: inline-block;
+    max-width: 372px;
+}
+.section-21 .inner-box .inner-right .inner-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 4px;
+}
+.section-21 .inner-box .inner-right .inner-item .progress {
+    width: 298px;
+    height: 8px;
+    margin: 0 26px 0 20px;
+    border-radius: 8px;
+}
+.section-21 .inner-box .inner-right .inner-item .progress .progress-bar{
+    background:#F2994A ;
+    border-radius: 8px;
+}
+.section-21 .inner-box .inner-right .inner-item .inner-number {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #4F4F4F;
+}
+/* End section 21 */
+/* End section 21 */
