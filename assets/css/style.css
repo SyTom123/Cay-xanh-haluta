@@ -1327,3 +1327,37 @@
 
 }
 /* End section 23 */
+/* section 24 */
+.section-24 {
+    margin-top: 5px ;
+    padding-bottom: 8px;
+}
+.section-24 .inner-pagi-square {
+    text-align: center;
+}
+.section-24 .inner-pagi-square .inner-box {
+    display: inline-block;
+    border: 1px solid #DBDBDB;
+    width: 32px;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    text-decoration: none;
+    color:var(--text-lightblack-seven);
+    padding: 6px 0px;
+    margin: 0 2.5px;
+    border-radius: 4px;
+}
+.section-24 .inner-pagi-square .inner-box.active {
+    background-color: var(--green-one-color);
+    color: white;
+}
+.section-24 .inner-pagi-square .dot{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color:var(--text-lightblack-seven);
+    margin: 0 3px;
+}
+
+
+/* End section 24 */
