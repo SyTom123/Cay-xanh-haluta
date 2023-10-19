@@ -375,3 +375,62 @@ body {
     bottom: -1.5px;
 }
 /* End product-item-small */
+
+/* check box */
+input[type=checkbox] {
+    cursor: pointer;
+    width: 20px;
+}
+
+input[type=checkbox]:checked:before {
+    content: '\f00c';
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.3rem;
+    background-color: #33945d;
+    border: 1px solid #33945d;
+}
+
+input[type=checkbox]:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background-color:#fff;
+    border: 1px solid #DBDBDB;
+}
+/* check box */
+/* radio */
+input[type=radio] {
+    cursor: pointer;
+    width: 20px;
+}
+
+input[type=radio]:checked:before {
+    content: '\f00c';
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.3rem;
+    background-color: #33945d;
+    border: 1px solid #33945d;
+}
+
+input[type=radio]:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:#fff;
+    border: 1px solid #DBDBDB;
+}
+/* check box */
