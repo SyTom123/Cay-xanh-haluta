@@ -1700,42 +1700,7 @@
 .section-30 {
     margin-top: 10px;
 }
-.section-30 .inner-left .inner-title {
-    line-height: 2.4rem;
-    font-weight: 600;
-    font-size: 1.6rem;
-    padding: 11px 0 12px;
-    text-align: center;
-    background-color: var(--text-lightblack-four);
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    border-radius: 4px 4px 0 0;
-    margin-bottom: 4px;
-}
-.section-30 .inner-left .inner-item.active a {
-    background-color: #EBF8ED;
-    color: var(--green-two-color);
-    font-weight: 600;
-}
-.section-30 .inner-left .inner-item a{
-    line-height: 2.4rem;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    margin-bottom:8px ;
-    font-weight: 400;
-    font-size: 1.6rem;
-    background-color: var(--text-lightblack-eight);
-    color:var(--text-lightblack-one) ;
-    letter-spacing: 1px;
-    border-radius: 4px 4px 0 0;
-    text-decoration: none;
-}
-.section-30 .inner-left .inner-item i {
-    font-size: 1.3rem;
-}
+
 .section-30 .inner-middle .inner-subTabs {
     display: flex;
     align-items: flex-start;
@@ -1892,3 +1857,60 @@
     object-fit: cover;
 }
 /* End section 30*/
+/* section 31*/
+.section-31 .inner-box {
+    margin-top: 24px;
+}
+.section-31 .inner-box .inner-tab{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    color: var(--text-lightblack-four);
+    margin-right: 32px;
+    font-family: var(--font-3);
+}
+.section-31 .inner-box .inner-tab.active {
+    color: var(--text-lightblack-six);
+    font-weight: 600;
+    padding: 4px 6px;
+    border-radius: 4px;
+    position: relative;
+}
+.section-31 .inner-box .inner-tab.active::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -7px;
+    left: 0;
+    background-color:#246EBC ;
+}
+.section-31 .hr-top {
+    height: 1px;
+    background-color: #DBDBDB;
+    border:none;
+    margin-top: 7px;
+    
+}
+/* End section 31*/
+/*section 32*/
+.section-32 {
+    margin-top: 10px;
+}
+.section-32 ol{
+    counter-reset: item
+}
+.section-32 ol li{
+    display: block;
+}
+.section-32 ol li:before{
+    content: counters(item, ".") " "; 
+    counter-increment: item;
+    padding-right: 5px;
+}
+.section-32 li li {
+    margin-left: 10px;
+}
+/* End section 32*/

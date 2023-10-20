@@ -1,7 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root {
     --font-1: 'Roboto', sans-serif;
     --font-2: 'Roboto Condensed', sans-serif;
+    --font-3: 'Segoe UI', sans-serif;
 
     --green-one-color: #007934;
     --green-two-color: #3AB54A;
@@ -473,3 +475,42 @@ input[type=radio]:before {
 }
 /* End section 15 */
 /* End pagination */
+/* subsibar */
+.inner-subsibar .inner-title {
+    line-height: 2.4rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+    padding: 11px 0 12px;
+    text-align: center;
+    background-color: var(--text-lightblack-four);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 4px 4px 0 0;
+    margin-bottom: 4px;
+}
+.inner-subsibar .inner-item.active a {
+    background-color: #EBF8ED;
+    color: var(--green-two-color);
+    font-weight: 600;
+}
+.inner-subsibar .inner-item a{
+    line-height: 2.4rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-bottom:8px ;
+    font-weight: 400;
+    font-size: 1.6rem;
+    background-color: var(--text-lightblack-eight);
+    color:var(--text-lightblack-one) ;
+    letter-spacing: 1px;
+    border-radius: 4px 4px 0 0;
+    text-decoration: none;
+    font-family: var(--font-3);
+}
+.inner-subsibar .inner-item i {
+    font-size: 1.3rem;
+}
+/* endsibar */
