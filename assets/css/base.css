@@ -435,3 +435,40 @@ input[type=radio]:before {
     border: 1px solid #DBDBDB;
 }
 /* check box */
+
+/* pagination */
+.inner-pag {
+    text-align: center;
+}
+.inner-pag a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.inner-pag .inner-box-icon ,  .inner-box.active {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+}
+.inner-pag .inner-box-icon {
+    background-color: #fff;
+    color: var(--text-lightblack-one);
+    border: 1px solid #E9e9e9;
+}
+.inner-pag .inner-box {
+    color: var(--text-lightblack-one);
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    font-weight: 400;
+    margin: 0 12px;
+    text-decoration: none;
+}
+.inner-pag .inner-box.active {
+    background-color: var(--green-two-color);
+    color: #fff;
+}
+/* End section 15 */
+/* End pagination */

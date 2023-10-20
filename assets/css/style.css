@@ -291,8 +291,20 @@
 }
 /*End section 9*/
 /*section 10*/
-.section-10 {
+.section-10.mt-65 {
     margin-top: 65px;
+}
+.section-10.pt-20 {
+    padding-top: 20px;
+}
+.section-10.mt-70 {
+    margin-top: 70px;
+}
+.section-10.mt-62 {
+    margin-top: 62px;
+}
+.section-10.mt-46 {
+    margin-top: 46px;
 }
 .section-10 .innex-box {
     height: 56px;
@@ -567,40 +579,7 @@
     margin-top: 22px;
 }
 /* End section 14 */
-.section-15 .inner-pag {
-    text-align: center;
-    padding: 32px 0;
-}
-.section-15 a {
-    text-decoration: none;
-    cursor: pointer;
-}
-.section-15 .inner-box-icon , .section-15 .inner-box.active {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    
-}
-.section-15 .inner-box-icon {
-    background-color: #fff;
-    color: var(--text-lightblack-one);
 
-}
-.section-15 .inner-box {
-    color: var(--text-lightblack-one);
-    font-size: 1.4rem;
-    line-height: 2.1rem;
-    font-weight: 400;
-    margin: 0 12px;
-}
-.section-15 .inner-box.active {
-    background-color: var(--green-two-color);
-    color: #fff;
-}
-/* End section 15 */
 /* section 16 */
 .section-16 {
     background-color: #fff;
@@ -1790,6 +1769,126 @@
 .section-30 .inner-middle .inner-image img{
     width: 100%;
     aspect-ratio: 660/367;
+    object-fit: cover;
+}
+.section-30 .inner-middle .inner-box-1 {
+    margin-top: 28px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #DBDBDB;
+}
+.section-30 .inner-middle .inner-box-1 .inner-title{
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--text-lightblack-one);
+    margin-bottom:2px;
+}
+.section-30 .inner-middle .inner-box-1 .inner-desc {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+}
+.section-30 .inner-middle .inner-item {
+    margin-bottom: 10px;
+}
+.section-30 .inner-middle .mt-42 {
+    margin-top: 42px;
+}
+.section-30 .inner-middle .inner-item {
+    display: flex;
+    align-content: flex-end;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #DBDBDB;
+    margin-top: 20px;
+}
+.section-30 .inner-middle .inner-item .inner-item-image {
+    width: 33.33%;
+    aspect-ratio: 220/152;
+
+}
+.section-30 .inner-middle .inner-item .inner-item-info {
+    width: 66.67%;
+    margin-left: 20px;
+}
+.section-30 .inner-middle .inner-item .inner-item-info .inner-item-title {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--text-lightblack-one);
+}
+.section-30 .inner-middle .inner-item .inner-item-info .inner-item-desc {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: var(--text-lightblack-one);
+}
+.section-30 .inner-middle .inner-item .inner-item-image img {
+    width: 100%;
+    object-fit: cover;
+}
+.section-30 .inner-middle .inner-item .inner-item-more{
+    display: flex;
+    align-items: center;
+    
+}
+
+.section-30 .inner-middle .inner-item .inner-item-more .inner-item-datetime {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: var(--text-lightblack-one);
+    margin-right: 15px;
+}
+.section-30 .inner-middle .inner-item .inner-item-more span {
+    font-size: 1.4rem;
+}
+.section-30 .inner-middle .inner-item .inner-item-more .inner-item-link {
+    color: var(--green-two-color);
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    text-transform: uppercase;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.section-30 .inner-right .inner-title {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 30px;
+}
+.section-30 .inner-right .inner-item {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 16px;
+}
+.section-30 .inner-right .inner-item .inner-image img{
+    height: 66px;
+    width: 80px;
+    margin-right: 16px;
+}
+.section-30 .inner-right .inner-item .inner-info .inner-item-title {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    margin-bottom: 4px;
+}
+.section-30 .inner-right .inner-item .inner-info .inner-item-title a {
+    text-decoration: none;
+    color: var(--text-lightblack-five);
+}
+.section-30 .inner-right .inner-item .inner-info .inner-datetime {
+    font-size: 1.4rem;
+    color: var(--text-lightblack-seven);
+    line-height: 2.1rem;
+}
+.section-30 .inner-right .inner-box  {
+    margin-top: 20px;
+}
+.section-30 .inner-right .inner-box.box-1  {
+    margin-top: 30px;
+}
+.section-30 .inner-right .inner-box img{
+    width: 100%;
+    aspect-ratio: 300/317;
     object-fit: cover;
 }
 /* End section 30*/
