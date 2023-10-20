@@ -302,6 +302,7 @@ body {
     object-fit: cover;
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 5px;
+    border-radius: 20px;
 }
 .product-item-small .no-inner-discount {
     visibility: hidden;
