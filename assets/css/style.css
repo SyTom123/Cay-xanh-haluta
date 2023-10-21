@@ -306,6 +306,9 @@
 .section-10.mt-46 {
     margin-top: 46px;
 }
+.section-10.mt-104 {
+    margin-top: 104px;
+}
 .section-10 .innex-box {
     height: 56px;
     width: 282px;
@@ -2049,3 +2052,103 @@
 }
 
 /* End section 32*/
+/* section 33*/
+.section-33 {
+    margin-top: 20px;
+}
+.section-33 .inner-content {
+    margin-top: 26px;
+}
+.section-33 .inner-title {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3.6rem;
+}
+.section-33 .inner-map iframe {
+    width: 100%;
+    aspect-ratio: 628/360;
+    overflow: hidden;
+}
+.section-33 .inner-box .inner-box-top {
+    color: #2977C5;
+    font-weight: 400;
+    line-height: 2,4rem;
+    font-size: 1.6rem;
+}
+.section-33 .inner-box .inner-wrap  {
+    margin-top: 22px;
+}
+.section-33 .inner-box .inner-wrap .inner-wrap-item h2 {
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: var(--text-lightblack-five);
+    margin-bottom: 13px;
+}
+.section-33 .inner-box .inner-wrap .inner-wrap-item div {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: var(--text-lightblack-one);
+    margin-bottom: 5px;
+}
+.section-33 .inner-box .inner-wrap .inner-wrap-item div b {
+    color:#4F4F4F  ;
+}
+/* End section 33*/
+/* section 34*/
+.section-34 {
+    margin-top: 30px;
+}
+.section-34 .inner-title {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: var(--text-lightblack-five);
+    border-bottom: 1px solid #DBDBDB;
+    margin-bottom: 30px;
+}
+.section-34 .inner-gender  {
+    margin-bottom: 20px;
+}
+.section-34 .inner-gender label {
+    color: var(--text-lightblack-five);
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+.section-34 .inner-input input {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--text-lightblack-seven);
+    width: 100%;
+    padding: 12px 0;
+    border: 1px solid #DBDBDB;
+    border-radius: 6px;
+    padding-left: 28px;
+    margin-bottom: 22px;
+    outline: none;
+}
+.section-34 textarea {
+    width: 100%;
+    height: 240px;
+    border: 1px solid #DBDBDB;
+    border-radius: 6px;
+    padding: 20px 28px;
+    outline: none;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--text-lightblack-seven);
+}
+.section-34 .inner-button-form {
+    width: 248px;
+    color: #fff;
+    background-color: var(--green-two-color);
+    border: none;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    padding: 8px 0;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+/* End section 34*/
