@@ -2023,4 +2023,29 @@
     margin-left: 16px;
     display: inline-block;
 }
+.section-32 .inner-right .inner-recommend .inner-recom-title {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: var(--text-lightblack-six);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.section-32 .inner-right .inner-recommend .inner-recom-list li {
+    margin-left: 20px;
+}
+.section-32 .inner-right .inner-recommend .inner-recom-list li a:hover {
+    color: var(--green-two-color);
+}
+.section-32 .inner-right .inner-recommend .inner-recom-list li a{
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    color: var(--text-lightblack-one);
+    text-decoration: none;
+}
+.section-32 .inner-right .inner-recommend .inner-recom-list li::marker {
+    font-size: 2rem;
+    color: var(--text-lightblack-one);
+}
+
 /* End section 32*/
